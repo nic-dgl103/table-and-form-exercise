@@ -1,0 +1,106 @@
+body {
+  font-family: sans-serif;
+  background: #dedede;
+  font-size: 16px;
+}
+
+/* TABLE STYLES */
+
+.wrapper-table {
+  overflow-x: auto;
+  margin: 100px 0;
+}
+
+table {
+  margin: 0 auto;
+  width: 700px;
+  border-spacing: 0px;
+  box-shadow: 5px 4px 30px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  background: #fff;
+}
+
+td {
+  padding: 20px 15px;
+}
+
+thead {
+  background: linear-gradient(45deg, #614ad3, #e42c64);
+}
+
+thead td {
+  color: #fff;
+  font-size: 20px;
+}
+
+thead td:first-child {
+  border-radius: 10px 0 0 0;
+}
+
+thead td:last-child {
+  border-radius: 0 10px 0 0;
+}
+
+tbody td {
+  border-top: 1px solid #B9BFC4;
+  border-right: 1px solid #B9BFC4;
+}
+
+td.merge {
+  text-align: center;
+}
+
+tr:hover {
+  background: rgba(123, 153, 218, 0.1);
+}
+
+/* FORM STYLES */
+
+.wrapper-form {
+  margin: 100px auto;
+  width: 640px;
+  border-radius: 10px;
+  background-color: white;
+  padding: 30px;
+}
+
+.wrapper-form h2 {
+  text-align: center;
+  font-weight: 600;
+  color: #614ad3;
+}
+
+label {
+  font-size: 16px;
+  width: 100%;
+  margin-top: 12px;
+}
+
+input {
+  box-sizing: border-box;
+  width: 100%;
+  height: 40px;
+  border: 1px solid #B9BFC4;
+  margin: 6px 0 20px 0;
+  padding: 12px;
+  font-size: 16px;
+}
+
+input[type="submit"] {
+  height: 100%;
+  width: 80%;
+  border: none;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  background: linear-gradient(to right, #56d8e4, #9f01ea);
+  padding: 12px 0;
+  margin: 32px auto;
+  display: block;
+}
+
+.signup-link {
+  text-align: center;
+}
