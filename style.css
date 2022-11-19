@@ -28,16 +28,16 @@ thead {
   background: linear-gradient(45deg, #614ad3, #e42c64);
 }
 
-thead td {
+thead th {
   color: #fff;
   font-size: 20px;
 }
 
-thead td:first-child {
+thead th:first-child {
   border-radius: 10px 0 0 0;
 }
 
-thead td:last-child {
+thead th:last-child {
   border-radius: 0 10px 0 0;
 }
 
